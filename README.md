@@ -1,6 +1,10 @@
 # Netflix GPT
-- Create vite@latest
-- Configure TailwindCSS
+ - Create vite@latest
+ - Configure TailwindCSS
+ - Header
+ - Login Form
+ - Sign Up Form
+
 
 # Features
 
