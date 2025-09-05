@@ -2,8 +2,16 @@
  - Create vite@latest
  - Configure TailwindCSS
  - Header
+ - Routing of the App
  - Login Form
  - Sign Up Form
+ - Form Validation
+ - useRef Hook
+ - FireBase Setup
+ - Deploying our app to production
+ - Create SignUp Use Account
+ - Implement Sign In with Api
+ - Created Redux Store with userSlice
 
 
 # Features
