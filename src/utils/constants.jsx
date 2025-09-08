@@ -4,3 +4,12 @@ export const LOGO =
 //   export const USER_AVATAR = "https://avatars.githubusercontent.com/u/91523355?v=4";
 export const USER_AVATAR =
   "https://occ-0-6247-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdpkabKqQAxyWzo6QW_ZnPz1IZLqlmNfK-t4L1VIeV1DY00JhLo_LMVFp936keDxj-V5UELAVJrU--iUUY2MaDxQSSO-0qw.png?r=e6e";
+
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxOGJiYWI2Yzk3MWQyNTA2YjE5NjNjOWI4NmI0YWE1NyIsIm5iZiI6MTc1NzI0MTMzNS41MzMsInN1YiI6IjY4YmQ1ZmY3YjVlOWMyNWU1Nzk4YmI4NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Kh6f8lcJfdLnr8HyithMa5T93B3pqZVS_zF9GwimkpE",
+  },
+};

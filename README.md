@@ -18,6 +18,8 @@
  - BufFix: if the user is not logged in Redirect /browse to login Page and Vice Versa
  - Unsubscribe to the onAuthStateChanged callback
  - Add hardcoded values to the constants file
+ - Register TMDB API & create an app & get access token
+ - Get Data from TMDB now playing movies from API
 
 
 # Features
