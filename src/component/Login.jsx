@@ -24,8 +24,8 @@ const Login = () => {
   const handleButtonClick = () => {
     // validate the form data
     // console.log(name.current.value);
-    console.log(email.current.value);
-    console.log(password.current.value);
+    // console.log(email.current.value);
+    // console.log(password.current.value);
 
     //  name.current.value,
     const message = checkValidaData(
@@ -64,7 +64,7 @@ const Login = () => {
               // An error occurred
               setErrorMessage(error.message);
             });
-          console.log(user);
+          // console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -81,7 +81,7 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
-          console.log(user);
+          // console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -99,7 +99,7 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          className=""
+          
           src="https://assets.nflxext.com/ffe/siteui/vlv3/8d617e19-3c3c-4c28-8998-c9b14dbc7200/web/IN-en-20250901-TRIFECTA-perspective_48d84d4e-9558-46b8-a0f3-8b2dc8478431_large.jpg"
           alt="back-logo"
         />

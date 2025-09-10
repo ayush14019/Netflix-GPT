@@ -48,17 +48,13 @@ const Header = () => {
   }, [dispatch, navigate]);
 
   return (
-    <div className="absolute w-screen  px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
-      <img
-        className="w-50  "
-        src={LOGO}
-        alt="logo"
-      />
+    <div className="absolute w-full px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
+      <img className="w-50" src={LOGO} alt="logo" />
       {user && (
-        <div className="flex p-2">
-          <img className="w-11 h-11" alt="usericon" src={user?.photoURL} />
-          <button className="font-black text-white" onClick={handleSignOut}>
-            (Sign Out)
+        <div className="flex p-5">
+          <img className="w-11 h-11 mr-1" alt="usericon" src={user?.photoURL} />
+          <button className="font-black  text-white" onClick={handleSignOut}>
+            Sign Out
           </button>
         </div>
       )}
