@@ -34,8 +34,11 @@
 - Build Movie Card
 - TMDB Image CDN URL
 - Made the browse page better with Tailwind Css
-- usePopularMovies Custom hook
-- Add hooks for top-rated , upcoming movies and update state management and UI
+- usePopularMovies Custom hook and update state management and UI
+- useTopRatedMovies Custom hook and update state management and UI
+- useUpcomingMovies Custom hook and update state management and UI
+- Refactor movie hooks and state management; 
+- useHorrorMovies Custom hook and update state management and UI
 
 # Features
 
