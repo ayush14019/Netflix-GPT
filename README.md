@@ -39,6 +39,10 @@
 - useUpcomingMovies Custom hook and update state management and UI
 - Refactor movie hooks and state management; 
 - useHorrorMovies Custom hook and update state management and UI
+- GPT Search Page
+- GPT Search Bar
+- (BONUS) Multi-Language Feature in Our App
+- 
 
 # Features
 
