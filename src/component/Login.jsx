@@ -97,12 +97,16 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <div className="absolute">
-        <img src={BG_URL} alt="back-logo" />
+      <div className="fixed inset-0 -z-10 ">
+        <img
+          className="w-full h-screen object-cover  "
+          src={BG_URL}
+          alt="back-logo"
+        />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className=" w-3/12  absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg opacity-80 "
+        className="w-10/12 md:w-3/12  absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg opacity-80  "
       >
         <h1 className="font-bold text-3xl  py-4 ">
           {isSignInForm ? "Sign In" : "Sign Up"}
@@ -112,24 +116,24 @@ const Login = () => {
             ref={name}
             type="text"
             placeholder="Full Name"
-            className="p-3 my-3  bg-gray-700  w-full "
+            className="p-3 my-3  bg-gray-700  w-full hover:cursor-pointer "
           />
         )}
         <input
           ref={email}
           type="email"
           placeholder="Email Address"
-          className="p-3 my-3  bg-gray-700  w-full "
+          className="p-3 my-3  bg-gray-700  w-full hover:cursor-pointer "
         />
         <input
           ref={password}
           type="password"
           placeholder="Password"
-          className="p-3 my-2   bg-gray-700 w-full"
+          className="p-3 my-2   bg-gray-700 w-full hover:cursor-pointer"
         />
         <p className="text-red-500 font-bold text-lg">{errorMessage}</p>
         <button
-          className="p-4 my-4 text-white bg-red-700 w-full rounded-lg"
+          className="p-4 my-4 text-white bg-red-700 w-full rounded-lg hover:bg-red-600"
           onClick={handleButtonClick}
         >
           {isSignInForm ? "Sign In" : "Sign Up"}

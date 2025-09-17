@@ -42,7 +42,15 @@
 - GPT Search Page
 - GPT Search Bar
 - (BONUS) Multi-Language Feature in Our App
-- 
+- Get Groq Ai Api key 
+- Groq search API call
+- fetched gptMovieSuggestion from TMDB
+- created gptSlice added data
+- Reused Movie List component to make movie suggestion container
+- Memoization
+- Added .env file
+- Adding .env file to gitnore
+- Made our Site Responsive
 
 # Features
 
