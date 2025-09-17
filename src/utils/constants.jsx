@@ -9,8 +9,7 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxOGJiYWI2Yzk3MWQyNTA2YjE5NjNjOWI4NmI0YWE1NyIsIm5iZiI6MTc1NzI0MTMzNS41MzMsInN1YiI6IjY4YmQ1ZmY3YjVlOWMyNWU1Nzk4YmI4NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Kh6f8lcJfdLnr8HyithMa5T93B3pqZVS_zF9GwimkpE",
+    Authorization: "Bearer " + import.meta.env.VITE_TMDB_API_KEY,
   },
 };
 
@@ -19,8 +18,10 @@ export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 export const BG_URL =
   "https://assets.nflxext.com/ffe/siteui/vlv3/8d617e19-3c3c-4c28-8998-c9b14dbc7200/web/IN-en-20250901-TRIFECTA-perspective_48d84d4e-9558-46b8-a0f3-8b2dc8478431_large.jpg";
 
-  export const SUPPORTED_LANGUAGE = [
-    { identifier: "en", name: "English" },
-    { identifier: "hindi", name: "Hindi" },
-    { identifier: "spanish", name: "Spanish" },
-  ];
+export const SUPPORTED_LANGUAGE = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+];
+
+export const GROQ_KEY = import.meta.env.VITE_GROQ_API_KEY;

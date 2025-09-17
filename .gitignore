@@ -27,3 +27,6 @@ dist-ssr
 # Firebase config
 src/utils/firebase.jsx
 
+
+
+.env
