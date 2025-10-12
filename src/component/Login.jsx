@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import Header from "./Header";
 import { checkValidaData } from "../utils/validate";
 import {
