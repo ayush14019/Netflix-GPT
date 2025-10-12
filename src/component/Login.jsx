@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import Header from "./Header";
-import { checkValidaData } from "../utils/Validate";
+import { checkValidaData } from "../utils/validate";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
@@ -22,12 +22,7 @@ const Login = () => {
   const password = useRef(null);
 
   const handleButtonClick = () => {
-    // validate the form data
-    // console.log(name.current.value);
-    // console.log(email.current.value);
-    // console.log(password.current.value);
-
-    //  name.current.value,
+    
     const message = checkValidaData(
       email.current.value,
       password.current.value
@@ -81,7 +76,6 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
-          // console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
