@@ -1,3 +1,19 @@
+# Structure of Our Website
+
+MainContainer
+ - VideoBackground
+ - VideoTitle
+SecondaryContainer
+ - MovieList * n
+ - cards * n
+
+
+- MovieList - Popular
+  - MovieCard * n
+- MovieList - Now Playing
+- MovieList - Trending
+- MovieList - Horror
+
 # Netflix GPT
 
 - Create vite@latest
