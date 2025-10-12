@@ -24,7 +24,7 @@ const GptSearchBar = () => {
   };
 
   const handleGptSearchClick = async () => {
-    console.log(searchText.current.value);
+    // console.log(searchText.current.value);
     // Make an api call to GPT API and get movie results
 
     const groqQuery =
@@ -51,26 +51,26 @@ const GptSearchBar = () => {
     // console.log("Groq API Response:", data);
 
     if (!groqResults.ok) {
-      console.error("HTTP error:", groqResults.status);
+      // console.error("HTTP error:", groqResults.status);
       return;
     }
 
     if (!data.choices?.[0]?.message?.content) {
-      console.error("Invalid API response");
+      // console.error("Invalid API response");
       return;
     }
 
     const groqMovies = data.choices[0].message.content
       .split(",")
       .map((m) => m.trim());
-    console.log("Movies:", groqMovies);
+    // console.log("Movies:", groqMovies);
     // [we will get 5 movies in comma seperated]
 
     // For each movies I will search TMDB API
     const promiseArray = groqMovies.map((movie) => searchMovieTMDB(movie));
 
     const tmdbResults = await Promise.all(promiseArray);
-    console.log(tmdbResults);
+    // console.log(tmdbResults);
 
     dispatch(
       addGptMoviesResults({
