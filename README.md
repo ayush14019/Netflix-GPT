@@ -33,7 +33,7 @@
 - [Development Journey](#-development-journey)
 - [Screenshots](#-screenshots)
 - [Contributing](#-contributing)
-- [License](#-license)
+
 
 ---
 
