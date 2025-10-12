@@ -16,7 +16,6 @@
   ![TMDB](https://img.shields.io/badge/TMDB-API-01B4E4?style=flat&logo=themoviedatabase&logoColor=white)
   ![Groq](https://img.shields.io/badge/Groq-AI-000000?style=flat&logo=ai&logoColor=white)
   
-  ![License](https://img.shields.io/badge/license-MIT-green?style=flat)
   ![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat)
   ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
 
